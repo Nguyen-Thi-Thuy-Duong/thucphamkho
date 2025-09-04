@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trang quản lý sản phẩm</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="themsp.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fixed">
+        <div class="row">
+            <div class="col-md-2 left-menu">
+                <h2 class="p-3">Admin</h2>
+                <a href="#">Trang chủ</a>
+                <a href="#">Sản phẩm</a>
+                <a href="#">Danh mục</a>
+                <a href="#">Danh sách</a>
+                <a href="#">Màu sắc</a>
+                <a href="#">Bài viết</a>
+                <a href="#">Slider</a>
+                <a href="#">Hình ảnh</a>
+                <a href="#">Slogan</a>
+                <a href="#">Cấu hình</a>
+            </div>
+
+            <div class="col-md-10">
+                <div class="d-flex justify-content-between align-items-center mb-3 mt-3">
+                    <h3 class="mb-0">Sản phẩm - Danh sách</h3>
+                    <div class="d-flex align-items-center">
+                        <a href="trangchu.html" class="text-primary mr-3" style="text-decoration: none;">
+                            Xem website
+                        </a>
+                        <img src="Logo/Logo.jpg" style="width:30px; height:30px" class="rounded-circle mr-2">
+                        <span style="font-weight: 500;">Admin</span>
+                    </div>
+                </div>
+
+                <div class="highlight-box">
+
+                    <h3>Thêm sản phẩm</h3>
+                    <div class="product-tabs row">
+                        <div class="col-9">
+                            <ul class="nav nav-tabs border-bottom-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Thông tin chi tiết</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Hình ảnh</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Thông tin khác</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-3 ">
+                            <button class="btn btn-primary">Lưu lại</button>
+                            <button class="btn btn-danger">Cập nhật</button>
+                            <button class="btn btn-secondary">Đóng</button>
+                        </div>
+                    </div>
+
+                    <form>
+                        <div class="form-group">
+                            <label><b>Tên sản phẩm </b></label>
+                            <input type="text" class="form-control" placeholder="Tên sản phẩm">
+                        </div>
+
+                        <div class="form-group">
+                            <label><b>Mã sản phẩm  </b></label>
+                            <input type="text" class="form-control" placeholder="Mã sản phẩm ">
+                        </div>
+
+                        <div class="form-group">
+                            <label><b>Danh mục</b></label>
+                            <select class="form-control" id="danhmuc" multiple>
+                                <option>Tất cả sản phẩm</option>
+                                <option>Trái cây</option>
+                                <option>Ngũ cốc & Sản phẩm từ ngũ cốc</option>
+                                <option>Các loại đậu & hạt</option>
+                                <option>Thực phẩm khô</option>
+                                <option>Rau củ sấy khô</option>
+                                <option>Đồ ăn vặt</option>
+                                <option>Gia vị</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label><b>Giá</b></label>
+                            <input type="number" class="form-control" placeholder="Giá">
+                        </div>
+
+                        <div class="form-group">
+                            <label><b>Giá khuyến mãi</b></label>
+                            <input type="number" class="form-control" placeholder="Giá khuyến mãi">
+                        </div>
+
+                        <div class="form-group">
+                            <label><b>Khuyến mãi %</b></label>
+                            <input type="number" class="form-control" placeholder="Khuyến mãi %">
+                        </div>
+
+                        <div class="form-group">
+                            <label><b>Đơn vị </b></label>
+                            <input type="text" class="form-control" placeholder="Đơn vị ">
+                        </div>
+
+                        <div class="form-group">
+                            <label><b>Thứ tự</b></label>
+                            <input type="text" class="form-control" placeholder="Thứ tự">
+                        </div>
+
+                        <div class="form-check mb-2">
+                            <input type="checkbox" class="form-check-input" id="publish">
+                            <label class="form-check-label" for="publish"><b>Publish</b></label>
+                        </div>
+
+                        <div class="form-group">
+                            <label><b>Mô tả </b></label>
+                            <textarea class="form-control" rows="4" placeholder="Mô tả "></textarea>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,469 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trang quản lý đơn hàng</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="donhang.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="hop-co-dinh">
+        <div class="row">
+            <div class="col-md-2 menu-ben-trai">
+                <h2 class="p-3">Admin</h2>
+                <a href="#">Trang chủ</a>
+                <a href="#">Sản phẩm</a>
+                <a href="#">Danh mục</a>
+                <a href="#">Danh sách</a>
+                <a href="#">Màu sắc</a>
+                <a href="#">Bài viết</a>
+                <a href="#">Slider</a>
+                <a href="#">Hình ảnh</a>
+                <a href="#">Slogan</a>
+                <a href="#">Cấu hình</a>
+            </div>
+
+            <div class="col-md-10">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h3 class="mb-0">Quản lý đơn hàng</h3>
+                    <div class="d-flex align-items-center">
+                        <a href="trangchu.html" class="text-primary mr-3" style="text-decoration: none;">
+                            Xem website
+                        </a>
+                        <img src="Logo/Logo.jpg" style="width:30px; height:30px" class="rounded-circle">
+                        <span style="font-weight: 500;">Admin</span>
+                    </div>
+                </div>
+
+                <div class="hop-noi-bat">
+                    <a href="#" class="btn btn-primary mb-3">Thêm mới</a>
+
+                    <form class="bieu-mau-ngang mb-3">
+                        <input type="text" class="o-dieu-khien form-control" placeholder="Nhập tiêu đề hoặc ID">
+                        <select class="o-dieu-khien form-control">
+                            <option selected>Chọn danh mục</option>
+                            <option>Trái cây</option>
+                            <option>Ngũ cốc</option>
+                            <option>Các loại đậu & hạt</option>
+                            <option>Thực phẩm khô</option>
+                            <option>Rau củ sấy khô</option>
+                            <option>Đồ ăn vặt</option>
+                            <option>Gia vị</option>
+                        </select>
+                        <select class="o-dieu-khien form-control">
+                            <option selected>Chọn giao dịch</option>
+                            <option>Trực tiếp</option>
+                            <option>Trực tuyến (online)</option>
+                        </select>
+                        <button type="submit" class="btn btn-info">OK</button>
+                        <button type="reset" class="btn btn-warning ml-2">Hủy</button>
+                        <button type="button" class="btn btn-danger ml-2">Xóa</button>
+                    </form>
+
+                    <table class="bang table table-bordered table-sm">
+                        <thead class="thead-light">
+                            <tr class="text-center">
+                                <th></th>
+                                <th>Mã sản phẩm</th>
+                                <th>Tiêu đề</th>
+                                <th>Mã sản phẩm</th>
+                                <th>Danh mục</th>
+                                <th>Giá</th>
+                                <th>Số lượng</th>
+                                <th>Khuyến <br />mãi%</th>
+                                <th>Thứ tự</th>
+                                <th>Shopping</th>
+                                <th>Publish</th>
+                                <th>Lượt xem</th>
+                                <th>Chức năng</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>SP001</td>
+                                <td>Hạt đậu gà trắng</td>
+                                <td>CLD-06</td>
+                                <td><span class="badge badge-primary">Các loại đậu & hạt</span></td>
+                                <td>40.000đ</td>
+                                <td><input type="text" class="form-control" placeholder="0" style="width:70px"></td>
+                                <td><input type="text" class="form-control" placeholder="0" style="width:70px"></td>
+                                <td><input type="text" class="form-control" placeholder="0" style="width:70px"></td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Có</option>
+                                        <option>Không</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Hiển thị</option>
+                                        <option>Ẩn</option>
+                                    </select>
+                                </td>
+                                <td>22</td>
+                                <td>
+                                    <a href="#" class="nut-sua">✏ Sửa</a> <br />
+                                    <a href="#" class="nut-xoa">✖ Xóa</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>SP002</td>
+                                <td>Táo đỏ sấy khô</td>
+                                <td>SPK-01</td>
+                                <td><span class="badge badge-primary">Sản phẩm khô</span></td>
+                                <td>139.000đ</td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Có</option>
+                                        <option>Không</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Hiển thị</option>
+                                        <option>Ẩn</option>
+                                    </select>
+                                </td>
+                                <td>51</td>
+                                <td>
+                                    <a href="#" class="btn-edit">✏ Sửa</a> <br />
+                                    <a href="#" class="btn-delete">✖ Xóa</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>SP003</td>
+                                <td>Yến mạch cán dẹp</td>
+                                <td>NVC-02</td>
+                                <td><span class="badge badge-primary">Ngũ cốc</span></td>
+                                <td>159.000đ</td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Có</option>
+                                        <option>Không</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Hiển thị</option>
+                                        <option>Ẩn</option>
+                                    </select>
+                                </td>
+                                <td>80</td>
+                                <td>
+                                    <a href="#" class="btn-edit">✏ Sửa</a> <br />
+                                    <a href="#" class="btn-delete">✖ Xóa</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>SP004</td>
+                                <td>Bánh gạo</td>
+                                <td>DAV-01</td>
+                                <td><span class="badge badge-primary">Đồ ăn vặt</span></td>
+                                <td>5.000đ</td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Có</option>
+                                        <option>Không</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Hiển thị</option>
+                                        <option>Ẩn</option>
+                                    </select>
+                                </td>
+                                <td>150</td>
+                                <td>
+                                    <a href="#" class="btn-edit">✏ Sửa</a> <br />
+                                    <a href="#" class="btn-delete">✖ Xóa</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>SP005</td>
+                                <td>Mít xấy</td>
+                                <td>TCX-06</td>
+                                <td><span class="badge badge-primary">Rau củ sấy khô</span></td>
+                                <td>38.000đ</td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Có</option>
+                                        <option>Không</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Hiển thị</option>
+                                        <option>Ẩn</option>
+                                    </select>
+                                </td>
+                                <td>10</td>
+                                <td>
+                                    <a href="#" class="btn-edit">✏ Sửa</a> <br />
+                                    <a href="#" class="btn-delete">✖ Xóa</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>SP006</td>
+                                <td>Kỷ tử xấy khô</td>
+                                <td>SPK-06</td>
+                                <td><span class="badge badge-primary">Sản phẩm khô</span></td>
+                                <td>110.000đ</td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Có</option>
+                                        <option>Không</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Hiển thị</option>
+                                        <option>Ẩn</option>
+                                    </select>
+                                </td>
+                                <td>30</td>
+                                <td>
+                                    <a href="#" class="btn-edit">✏ Sửa</a> <br />
+                                    <a href="#" class="btn-delete">✖ Xóa</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>SP007</td>
+                                <td>Quýt xấy</td>
+                                <td>TCX-01</td>
+                                <td><span class="badge badge-primary">Trái cây</span></td>
+                                <td>38.000đ</td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Có</option>
+                                        <option>Không</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Hiển thị</option>
+                                        <option>Ẩn</option>
+                                    </select>
+                                </td>
+                                <td>13</td>
+                                <td>
+                                    <a href="#" class="btn-edit">✏ Sửa</a> <br />
+                                    <a href="#" class="btn-delete">✖ Xóa</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>SP008</td>
+                                <td>Hạt chia tách vỏ</td>
+                                <td>HAD-06</td>
+                                <td><span class="badge badge-primary">Các loại đậu & hạt</span></td>
+                                <td>119.000đ</td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Có</option>
+                                        <option>Không</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Hiển thị</option>
+                                        <option>Ẩn</option>
+                                    </select>
+                                </td>
+                                <td>55</td>
+                                <td>
+                                    <a href="#" class="btn-edit">✏ Sửa</a> <br />
+                                    <a href="#" class="btn-delete">✖ Xóa</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>SP009</td>
+                                <td>Hạt hạnh hân tách vỏ</td>
+                                <td>CLD-05</td>
+                                <td><span class="badge badge-primary">Sản phẩm khô</span></td>
+                                <td>59.000</td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Có</option>
+                                        <option>Không</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Hiển thị</option>
+                                        <option>Ẩn</option>
+                                    </select>
+                                </td>
+                                <td>76</td>
+                                <td>
+                                    <a href="#" class="btn-edit">✏ Sửa</a> <br />
+                                    <a href="#" class="btn-delete">✖ Xóa</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>SP010</td>
+                                <td>Dầu ăn</td>
+                                <td>GVV-01</td>
+                                <td><span class="badge badge-primary">Gia vị</span></td>
+                                <td>49.000</td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Có</option>
+                                        <option>Không</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Hiển thị</option>
+                                        <option>Ẩn</option>
+                                    </select>
+                                </td>
+                                <td>99</td>
+                                <td>
+                                    <a href="#" class="btn-edit">✏ Sửa</a> <br />
+                                    <a href="#" class="btn-delete">✖ Xóa</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>SP011</td>
+                                <td>Bánh Lays</td>
+                                <td>DAV-03</td>
+                                <td><span class="badge badge-primary">Đồ ăn vặt</span></td>
+                                <td>10.000</td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="0" style="width:70px">
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Có</option>
+                                        <option>Không</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select class="form-control form-control-sm">
+                                        <option selected>Hiển thị</option>
+                                        <option>Ẩn</option>
+                                    </select>
+                                </td>
+                                <td>60</td>
+                                <td>
+                                    <a href="#" class="btn-edit">✏ Sửa</a> <br />
+                                    <a href="#" class="btn-delete">✖ Xóa</a>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

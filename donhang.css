@@ -1,0 +1,52 @@
+﻿.hop-co-dinh {
+  max-width: 1900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.menu-ben-trai {
+  background-color: #343a40;
+  min-height: 100vh;
+  color: white;
+}
+
+.menu-ben-trai a {
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu-ben-trai a:hover {
+  background-color: #495057;
+}
+
+.bang td,
+.bang th {
+  vertical-align: middle;
+}
+.bieu-mau-ngang {
+  display: flex;
+}
+
+.bieu-mau-ngang .o-dieu-khien {
+  width: auto;
+  margin-right: 10px;
+}
+
+.nut-sua {
+  color: blue;
+  margin-right: 5px;
+}
+
+.nut-xoa {
+  color: red;
+}
+
+.hop-noi-bat {
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}

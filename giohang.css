@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.khung {
+  width: 1500px;
+  background-color: #eff5ee;
+}
+.header {
+  border: none;
+}
+.dong1 {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  background-color: #04760c;
+  padding: 20px 40px 0 40px;
+}
+.ct1 {
+  border: none;
+}
+.ct1 p {
+  color: white;
+  font-size: 19px;
+}
+.ct1 b {
+  color: white;
+  font-size: 20px;
+}
+.ct2 {
+  border: none;
+  display: flex;
+}
+.ct2 img {
+  width: 23px;
+  height: 23px;
+  margin-right: 10px;
+}
+
+.ct2 img:hover {
+  cursor: pointer;
+}
+
+.ct2 b {
+  color: white;
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.dong2 {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  background-color: #eff5ee;
+  padding: 0 40px;
+}
+
+.cot1 img {
+  width: 200px;
+  height: 80px;
+  margin: 10px 0;
+  border-radius: 15px;
+}
+
+.cot2 {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  margin-top: 27px;
+}
+
+.cot2 input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #666;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 2px solid #09751a;
+  padding: 10px;
+}
+
+.cot2 button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #09751a;
+  width: 50px;
+  height: 50px;
+}
+
+.cot2 button img {
+  width: 25px;
+  height: 25px;
+}
+
+.cot3 {
+  border: none;
+  padding-top: 33px;
+}
+.cot3 img {
+  width: 30px;
+  height: 30px;
+  margin-right: 25px;
+}
+
+.Login {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dangkydangnhap {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  width: 120px;
+  margin: 0 0 0 -110px;
+}
+
+.dangkydangnhap a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.dangkydangnhap a:hover {
+  background-color: #68cb36;
+  color: #d8ecdb;
+  text-decoration: none;
+}
+
+.Login:hover .dangkydangnhap {
+  display: block;
+}
+
+.shopping {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.love {
+  cursor: pointer;
+  text-decoration: none;
+}
+.menu {
+  padding: 0 150px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #09751a;
+}
+
+.nav li {
+  padding: 10px 0;
+  position: relative;
+}
+
+.nav li a {
+  font-size: 13px;
+  padding: 0px 50px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav li:hover {
+  background-color: #3da04d;
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  z-index: 5;
+  width: 300px;
+  display: none; 
+}
+
+.nav-item.menungang:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 15px;
+  white-space: nowrap;
+}
+
+.submenu li:hover {
+  cursor: pointer;
+  background-color: #fff;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.submenu img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.submenu li a {
+  color: black;
+  margin-left: -50px;
+}
+.khung-to {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+}
+
+.tieu-de {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.khung-danh-sach {
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 10px;
+  border-right: 1px solid #ccc;
+}
+
+.san-pham {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.san-pham img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.ten-san-pham {
+  font-weight: 600;
+}
+
+.nut {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 0;
+}
+
+.gia {
+  font-weight: bold;
+  color: #3f6600;
+}
+
+.cot-phai {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.nut-mua {
+  background-color: #8bc34a;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.xoa {
+  object-fit: contain;
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
+
+.xoa img {
+  width: 30px;
+  height: 30px;
+}
+
+.xoa:hover {
+  filter: brightness(0.5);
+}
+
+.them-dia-chi {
+  color: #28a745;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  font-weight: bold;
+}
+
+.them-dia-chi:hover {
+  color: #1e7e34;
+  text-decoration: underline;
+}
+
+.nut-ap-dung {
+  background-color: #8bc34a;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
+
+.khung-ben-phai {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.hop-san-pham {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.footer {
+  border: none;
+}
+.footer1 {
+  padding: 20px 80px;
+  border: none;
+  background-color: #eff5ee;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.card {
+  width: 350px;
+  text-align: center;
+}
+.card img {
+  width: 60px;
+  height: 60px;
+  margin-left: 120px;
+}
+.card h2 {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+.card p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px 20px 60px;
+  background-color: #09751a;
+}
+.footer-box {
+  width: 300px;
+}
+.footer-box h2 {
+  color: white;
+  font-size: 25px;
+  padding: 20px 30px 10px 30px;
+}
+.footer-box p {
+  color: white;
+  font-size: 15px;
+  padding-left: 30px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+#fanpage img {
+  margin: 0 20px;
+  width: 50px;
+}
+
+.footer-box h3 {
+  color: #d4e15d;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 60px 0 20px 80px;
+}
+
+.email {
+  width: 270px;
+  border: none;
+  padding: 0px 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.footer3 {
+  border: none;
+  color: #fff;
+  padding: 0px 40px 20px 40px;
+  background-color: #09751a;
+  text-align: center;
+}

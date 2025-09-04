@@ -1,0 +1,376 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="sanpham.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="header">
+        <div class="dong1">
+            <div class="ct1">
+                <p>Chào mừng bạn đến với <b>Khô Sống Khỏe !</b></p>
+            </div>
+            <div class="ct2">
+                <img src="Icon/headset.png" />
+                <b>0988382xxx</b>
+                <a href="#"><img src="Icon/facebook.png" /></a>
+                <a href="#"><img src="Icon/instagram.png" /></a>
+                <a href="#"><img src="Icon/twitter.png" /></a>
+            </div>
+        </div>
+
+        <div class="dong2">
+
+            <div class="cot1"><img src="Logo/Logo.jpg" /></div>
+
+            <div class="cot2">
+                <div class="input-group w-100">
+                    <input type="search" placeholder="Tìm kiếm ..." class="search" />
+                    <button class="btn p-2"><img src="Icon/search.png" /></button>
+                </div>
+            </div>
+
+            <div class="cot3">
+                <div class="Login">
+                    <img src="Icon/user.png" class="user-icon" />
+                    <div class="dangkydangnhap">
+                        <a href="dangnhap.html">Đăng nhập</a>
+                        <a href="dangky.html">Đăng ký</a>
+                    </div>
+                </div>
+
+                <a href="giohang.html">
+                    <img src="Icon/shopping-cart.png" class="shopping" />
+                </a>
+                <a href="#">
+                    <img src="Icon/heart.png" class="love" />
+                </a>
+            </div>
+        </div>
+
+        <div class="menu">
+            <ul class="nav">
+                <li class="nav-item menungang"
+                    style="width: 300px; background-color: #68cb36">
+                    <img src="Icon/menu.png" style="margin-left: 20px" />
+                    <a class="naz-link fw-bold"
+                       href="#"
+                       style="margin-left: -40px; color: #fff">mục sản phẩm</a>
+                    <ul class="submenu list-unstyled">
+                        <li><img src="Icon/icon-grocery-bag.jpg" /><a href="DSSP - TATCASANPHAM.html">Tất cả sản phẩm</a></li>
+                        <li style="background-color: #dbf7df">
+                            <img src="Icon/icontraicay.jpg" /><a href="DSSP - TRAICAY.html">Trái cây</a>
+                        </li>
+                        <li>
+                            <img src="Icon/ngucoc.jpg" /><a href="DSSP - NGUCOC.html">Ngũ cốc & Sản phẩm từ ngũ cốc</a>
+                        </li>
+                        <li style="background-color: #dbf7df">
+                            <img src="Icon/iconhat.jpg" /><a href="DSSP - CACLOAIDAU4.html">Các loại đậu & hạt</a>
+                        </li>
+                        <li><img src="Icon/iconTPkho.jpg" /><a href="DSSP - TPKHO.html">Thực phẩm khô</a></li>
+                        <li style="background-color: #dbf7df">
+                            <img src="Icon/iconfruit.jpg" /><a href="DSSP - RAUCUSAY.html">Rau củ sấy khô</a>
+                        </li>
+                        <li><img src="Icon/iconanvat.jpg" /><a href="DSSP - DOANVAT.html">Đồ ăn vặt</a></li>
+                        <li style="background-color: #dbf7df">
+                            <img src="Icon/giavi.jpg" /><a href="DSSPT - GIAVI.html">Gia vị</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item menungang">
+                    <a class="naz-link" href="trangchu.html">Trang chủ</a>
+                </li>
+                <li class="nav-item menungang">
+                    <a class="naz-link" href="tranggioithieu.html">Giới thiệu</a>
+                </li>
+                <li class="nav-item menungang" style="background-color: #3da04d;">
+                    <a class="naz-link" href="DSSP - TATCASANPHAM.html">Sản phẩm</a>
+                </li>
+                <li class="nav-item menungang">
+                    <a class="naz-link" href="tintuc.html">Bản tin</a>
+                </li>
+                <li class="nav-item menungang">
+                    <a class="naz-link" href="lienhe.html">Liên hệ</a>
+                </li>
+            </ul>
+        </div>
+        <img src="Image/sanpham.jpg"
+             style=" width: 100%; height: 350px" />
+    </div>
+    <div class="dssp" style="width: 1650px;height:1000px">
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <!-- Sidebar -->
+                <div class="col-md-2">
+                    <h5>Khoảng Giá</h5>
+                    <input type="range" class="form-range" min="1000" max="2000000" />
+                    <br />
+                    <button class="btn btn-outline-secondary btn-sm mt-2 mb-4">Lọc Giá</button>
+
+                    <h5>Xuất Xứ</h5>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="Pháp">
+                        <label class="form-check-label" for="Pháp">Pháp</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="Mỹ">
+                        <label class="form-check-label" for="Mỹ">Mỹ</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="Nam Phi">
+                        <label class="form-check-label" for="Nam Phi">Nam Phi</label>
+                    </div>
+                </div>
+
+                <!-- Product grid -->
+                 <div class="col-md-10">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4>Kho ăn vặt</h4>
+
+                    </div>
+
+                    <div class="row g-3">
+                        <div class="row g-4">
+                            <!-- Card 1 -->
+                            <div class="col-md-3">
+                                <div class="card product-card ">
+                                    <span class="badge bg-danger text-white position-absolute top-0 start-0 m-2  " style="gap: 8px;">Tạm Hết Hàng</span>
+
+                                    <img src="Image/Traicay/chomchom.jpg" class="card-img-top" style="height: 200px;width:200px; display: flex; justify-content: center;" alt="Chôm Chôm Thái" />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Chôm Chôm Thái (đơn giá kg) </h4>
+                                        <p style="opacity: 0.7;">Hết hàng </p>
+
+                                    </div>
+                                    <a href="#" class="btn btn-success w-100 d-flex align-items-center justify-content-center" style="padding: 12px 10px;">
+                                        <img src="Icon/shopping.jpg" style="width:36px; height:36px; margin-right:12px;margin-left:-10px;" alt="Giỏ hàng">
+                                        <span style="font-size:18px;">Thêm vào giỏ hàng</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="col-md-3">
+                                <div class="card product-card">
+                                    <div class="position-absolute top-0 start-0 m-2 d-flex flex-column" style="gap: 8px;">
+                                        <span class="badge bg-success text-white">Giá Tốt</span>
+                                        <span class="badge bg-danger text-white">Tạm Hết Hàng</span>
+                                    </div>
+                                    <img src="Image/Ngucoc/ngucoc.jpg" class="card-img-top" style="height: 200px;width:200px; display: flex; justify-content: center; " />
+
+                                    <div class="card-body">
+                                        <h4 class="card-title">Ngũ cốc</h4>
+
+                                        <p style="opacity: 0.7;">Còn Hàng</p>
+                                    </div>
+                                    <a href="#" class="btn btn-success w-100 d-flex align-items-center justify-content-center" style="padding: 12px 20px;">
+                                        <img src="Icon/shopping.jpg" style="width:36px; height:36px; margin-right:12px;margin-left: -10px;" alt="Giỏ hàng">
+                                        <span style="font-size:18px;">Thêm vào giỏ hàng</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Card 3 -->
+                            <div class="col-md-3">
+                                <div class="card product-card">
+                                    <div class="position-absolute top-0 start-0 m-2 d-flex flex-column" style="gap: 8px;">
+                                        <span class="badge bg-success text-white">Giá Tốt</span>
+                                        <span class="badge bg-danger text-white">Tạm Hết Hàng</span>
+                                    </div>
+                                    <img src="Image/Cacloaidauvahat/hanhnhan.jpg" class="card-img-top" style="height: 200px;width:200px; display: flex; justify-content: center;" />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Hạnh Nhân (Đơn giá 100gram)</h4>
+                                        <p style="opacity: 0.7;">Hết Hàng</p>
+                                    </div>
+                                    <a href="#" class="btn btn-success w-100 d-flex align-items-center justify-content-center" style="padding: 12px 20px;">
+                                        <img src="Icon/shopping.jpg" style="width:36px; height:36px; margin-right:12px;margin-left: -10px;" alt="Giỏ hàng">
+                                        <span style="font-size:18px;">Thêm vào giỏ hàng</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Card 4 -->
+                            <div class="col-md-3">
+                                <div class="card product-card">
+                                    <span class="badge badge-good position-absolute m-2">Giá Tốt</span>
+                                    <img src="Image/Traicay/tao.jpg" class="card-img-top" style="height: 200px;width:200px; display: flex; justify-content: center;" />
+
+                                    <div class="card-body">
+                                        <h4 class="card-title">Táo Dazzle New Zealand size 90 (khay 5 quả)</h4>
+
+                                        <p style="opacity: 0.7;">Còn Hàng</p>
+                                    </div>
+                                    <a href="#" class="btn btn-success w-100 d-flex align-items-center justify-content-center" style="padding: 12px 20px;">
+                                        <img src="Icon/shopping.jpg" style="width:36px; height:36px; margin-right:12px;margin-left: -10px;" alt="Giỏ hàng">
+                                        <span style="font-size:18px;">Thêm vào giỏ hàng</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--card 5-->
+                            <div class="col-md-3">
+                                <div class="card product-card">
+                                    <div class="position-absolute top-0 start-0 m-2 d-flex flex-column" style="gap: 8px;">
+                                        <span class="badge bg-success text-white">Giá Tốt</span>
+                                        <span class="badge bg-danger text-white">Tạm Hết Hàng</span>
+                                    </div>
+                                    <img src="Image/Traicay/thanhlong.jpg" class="card-img-top" style="height: 200px;width:200px; display: flex; justify-content: center; " />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Thanh Long Ruột Đỏ( đơn giá theo KG)</h4>
+
+                                        <p style="opacity: 0.7;">Hết Hàng</p>
+                                    </div>
+                                    <a href="#" class="btn btn-success w-100 d-flex align-items-center justify-content-center" style="padding: 12px 20px;">
+                                        <img src="Icon/shopping.jpg" style="width:36px; height:36px; margin-right:12px;margin-left: -10px;" alt="Giỏ hàng">
+                                        <span style="font-size:18px;">Thêm vào giỏ hàng</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--card 6-->
+                            <div class="col-md-3">
+                                <div class="card product-card">
+                                    <span class="badge badge-good position-absolute m-2">Giá tốt </span>
+                                    <img src="Image/Doanvat/banh-gao.jpg" class="card-img-top" style="height: 200px;width:200px; display: flex; justify-content: center; " />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Bánh Gạo</h4>
+
+                                        <p style="opacity: 0.7;"> Còn Hàng</p>
+                                    </div>
+                                    <a href="#" class="btn btn-success w-100 d-flex align-items-center justify-content-center" style="padding: 12px 20px;">
+                                        <img src="Icon/shopping.jpg" style="width:36px; height:36px; margin-right:12px;margin-left: -10px;" alt="Giỏ hàng">
+                                        <span style="font-size:18px;">Thêm vào giỏ hàng</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--card 7-->
+                            <div class="col-md-3">
+                                <div class="card product-card">
+                                    <div class="position-absolute top-0 start-0 m-2 d-flex flex-column" style="gap: 8px;">
+                                        <span class="badge bg-success text-white">Giá Tốt( Giảm 30%)</span>
+                                        <span class="badge bg-danger text-white">Tạm Hết Hàng</span>
+                                    </div>
+                                    <img src="Image/Traicay/le.jpg" class="card-img-top" style="height: 200px;width:200px; display: flex; justify-content: center; " />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Lê Nam Phi (đơn giá kg)</h4>
+
+                                        <p style="opacity: 0.7;">Hết Hàng</p>
+                                    </div>
+                                    <a href="#" class="btn btn-success w-100 d-flex align-items-center justify-content-center" style="padding: 12px 20px;">
+                                        <img src="Icon/shopping.jpg" style="width:36px; height:36px; margin-right:12px;margin-left: -10px;" alt="Giỏ hàng">
+                                        <span style="font-size:18px;">Thêm vào giỏ hàng</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--card 8-->
+                            <div class="col-md-3">
+                                <div class="card product-card">
+                                    <span class="badge bg-danger text-white position-absolute top-0 start-0 m-2  " style="gap: 8px;">Tạm Hết Hàng</span>
+                                    <img src="Image/Traicay/quytquyt.jpg" class="card-img-top" style="height: 200px;width:200px; display: flex; justify-content: center; " />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Quýt Đường Ôn Châu </h4>
+
+                                        <p class="product-status out" style="opacity: 0.7;">Hết Hàng</p>
+                                    </div>
+                                    <a href="#" class="btn btn-success w-100 d-flex align-items-center justify-content-center" style="padding: 12px 20px;">
+                                        <img src="Icon/shopping.jpg" style="width:36px; height:36px; margin-right:12px;margin-left: -10px;" alt="Giỏ hàng">
+                                        <span style="font-size:18px;">Thêm vào giỏ hàng</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <div class="footer1">
+            <div class="card-container">
+                <div class="card c-3"
+                     style="background-color: #eff5ee; border: none">
+                    <img src="Icon/shipper.png" />
+                    <h2>
+                        Giao hàng<br />
+                        nội thành
+                    </h2>
+                    <p>Với mức phí ship tối ưu nhất</p>
+                </div>
+                <div class="card c-3"
+                     style="background-color: #eff5ee; border: none">
+                    <img src="Icon/win.png" />
+                    <h2>Chất lượng sản phẩm <br />là tiêu chí hàng đầu</h2>
+                    <p>Luôn kiểm soát nghiêm ngặt, chuẩn chỉnh</p>
+                </div>
+                <div class="card c-3"
+                     style="background-color: #eff5ee; border: none">
+                    <img src="Icon/message.png" />
+                    <h2>Chăm sóc khách hàng <br />tận tâm, nhiệt tình</h2>
+                    <p>Luôn vì quyền lợi khách hàng</p>
+                </div>
+                <div class="card c-3"
+                     style="background-color: #eff5ee; border: none">
+                    <img src="Icon/secure.png" />
+                    <h2>Hỗ trợ thanh toán <br />an toàn, tiện lợi</h2>
+                    <p>Khi mua hàng tại hệ thống cửa hàng</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer2">
+            <div class="footer-box ">
+                <img src="Logo/Logo.jpg" style="width: 250px; height: 150px; margin-left: 20px;"></img>
+                <p style="font-size: 17px; padding-left: 25px;"><img src="Icon/location.png"> Địa chỉ: FLC Star 418 Quang Trung, La Khê, Hà Đông</p>
+                <p style="font-size: 17px; padding-left: 25px;"><img src="Icon/email.png"> Email: example@gmail.com</p>
+                <p style="font-size: 17px; padding-left: 25px;"><img src="Icon/telephone.png"> Điện thoại: 0387969xxx</p>
+            </div>
+            <div class="footer-box ">
+                <h2>VỀ CHÚNG TÔI</h2>
+                <p>Profile Local Market</p>
+                <p>
+                    Hướng dẫn đăng ký
+                </p>
+                <p>Bảo mật thông tin cá nhân</p>
+                <p>Quy chế hoạt động</p>
+                <p>Quy trình giải quyết khiếu nại</p>
+                <p>Liên hệ</p>
+
+            </div>
+            <div class="footer-box ">
+                <h2>CHÍNH SÁCH</h2>
+                <p>Hotline: 1900-636-001 (1000đ/phút, 9h-18h từ T2 - T7)</p>
+                <p>Các câu hỏi thường gặp</p>
+                <p>Hướng dẫn đặt hàng</p>
+                <p>Phương thức vận chuyển</p>
+                <p>Chính sách đổi trả</p>
+            </div>
+            <div class="footer-box " id="fanpage" style="width: 350px;">
+                <h2>Fanpage</h2>
+                <a href="#"><img src="Icon/facebook.png" /></a>
+                <a href="#"> <img src="Icon/instagram.png" /></a>
+                <a href="#">  <img src="Icon/twitter.png" /></a>
+                <h3>Đăng ký để nhận tin</h3>
+                <div class="input-group">
+                    <input type="email" placeholder="Nhập địa chỉ email" class="email" />
+                    <button class="btn p-2" style="border-top-right-radius: 20px;border-bottom-right-radius: 20px;border-top-left-radius:0;border-bottom-left-radius: 0;background-color: #d4e15d;color: #fff;">Đăng ký</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer3">
+            <h5>© Bản quyền thuộc về Khô Sống Khỏe | Cung cấp bởi Sapo</h5>
+        </div>
+    </div>
+
+    <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,394 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.khungchung {
+  width: 1500px;
+  background-color: #f9f9f9;
+}
+.header {
+  border: none;
+}
+.dong1 {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  background-color: #04760c;
+  padding: 20px 40px 0 40px;
+}
+.ct1 {
+  border: none;
+}
+.ct1 p {
+  color: white;
+  font-size: 19px;
+}
+.ct1 b {
+  color: white;
+  font-size: 20px;
+}
+.ct2 {
+  border: none;
+  display: flex;
+}
+.ct2 img {
+  width: 23px;
+  height: 23px;
+  margin-right: 10px;
+}
+
+.ct2 img:hover {
+  cursor: pointer;
+}
+
+.ct2 b {
+  color: white;
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.dong2 {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  background-color: #eff5ee;
+  padding: 0 40px;
+}
+
+.cot1 img {
+  width: 200px;
+  height: 80px;
+  margin: 10px 0;
+  border-radius: 15px;
+}
+
+.cot2 {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  margin-top: 27px;
+}
+
+.cot2 input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #666;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 2px solid #09751a;
+  padding: 10px;
+}
+
+.cot2 button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #09751a;
+  width: 50px;
+  height: 50px;
+}
+
+.cot2 button img {
+  width: 25px;
+  height: 25px;
+}
+
+.cot3 {
+  border: none;
+  padding-top: 33px;
+}
+.cot3 img {
+  width: 30px;
+  height: 30px;
+  margin-right: 25px;
+}
+
+.Login {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dangkydangnhap {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  width: 120px;
+  margin: 0 0 0 -110px;
+}
+
+.dangkydangnhap a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.dangkydangnhap a:hover {
+  background-color: #68cb36;
+  color: #d8ecdb;
+  text-decoration: none;
+}
+
+.Login:hover .dangkydangnhap {
+  display: block;
+}
+
+.shopping {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.love {
+  cursor: pointer;
+  text-decoration: none;
+}
+.menu {
+  padding: 0 150px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #09751a;
+}
+
+.nav li {
+  padding: 10px 0;
+  position: relative;
+}
+
+.nav li a {
+  font-size: 13px;
+  padding: 0px 50px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav li:hover {
+  background-color: #3da04d;
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  width: 300px;
+  display: none;
+}
+
+.nav-item.menungang:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 15px;
+  white-space: nowrap;
+}
+
+.submenu li:hover {
+  cursor: pointer;
+  background-color: #fff;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.submenu img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.submenu li a {
+  color: black;
+  margin-left: -50px;
+}
+
+.khung {
+  width: 1200px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.trai {
+  padding: 0 20px;
+}
+
+.trai .item {
+  text-align: left;
+}
+
+.trai .item:hover {
+  box-shadow: 0px 0px 5px 5px #999999;
+}
+
+.trai .item img {
+  max-width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.trai .item-content {
+  padding: 10px 0;
+}
+
+.trai .item-content b {
+  color: #333;
+  font-size: 16px;
+}
+
+.trai .item-content p {
+  color: #555;
+  font-size: 14px;
+  margin: 0;
+}
+
+.phai {
+  padding: 0px 20px;
+}
+
+.phai .category {
+  background-color: #04760c;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.phai .chuyenmuc {
+  color: #555;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  padding: 5px 0;
+  text-align: left;
+}
+
+.phai .chuyenmuc:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.phai .tinmoi {
+  margin-bottom: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: transparent;
+}
+
+.phai .card-body a {
+  color: #555;
+  font-size: 14px;
+  text-decoration: none;
+  padding-top: -20px;
+}
+
+.phai .card-body a:hover {
+  color: #000;
+}
+
+.phai .hinhnho {
+  width: 100%;
+  height: 70px;
+}
+
+.footer {
+  border: none;
+}
+.footer1 {
+  padding: 20px 80px;
+  border: none;
+  background-color: #eff5ee;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.card {
+  width: 350px;
+  text-align: center;
+}
+.card img {
+  width: 60px;
+  height: 60px;
+  margin-left: 120px;
+}
+.card h2 {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+.card p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px 20px 60px;
+  background-color: #09751a;
+}
+.footer-box {
+  width: 300px;
+}
+.footer-box h2 {
+  color: white;
+  font-size: 25px;
+  padding: 20px 30px 10px 30px;
+}
+.footer-box p {
+  color: white;
+  font-size: 15px;
+  padding-left: 30px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+#fanpage img {
+  margin: 0 20px;
+  width: 50px;
+}
+
+.footer-box h3 {
+  color: #d4e15d;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 60px 0 20px 80px;
+}
+
+.email {
+  width: 270px;
+  border: none;
+  padding: 0px 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.footer3 {
+  border: none;
+  color: #fff;
+  padding: 0px 40px 20px 40px;
+  background-color: #09751a;
+  text-align: center;
+}
